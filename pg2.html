@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort Visualization</title>
+    <link rel="stylesheet" href="C:\Users\radhi\rj\rj html\styl.css">
+</head>
+<body>
+    <div class="controls">
+        <h1>Bubble Sort Using Stack</h1>
+        <label for="num-elements">Number of elements (5-8): </label>
+        <input type="number" id="num-elements" min="5" max="8">
+        <button id="submit-elements">Submit</button>
+    </div>
+    <div id="stack-input" class="hidden">
+        <label for="stack-values">Enter the elements (comma-separated):</label>
+        <input type="text" id="stack-values">
+        <button id="start-sorting">Start Sorting</button>
+    </div>
+    <div id="visualization" class="hidden">
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="restart">Restart</button>
+            <label for="speed">Speed:</label>
+            <select id="speed">
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="3">3x</option>
+                <option value="4">4x</option>
+            </select>
+        </div>
+        <div id="stack-container"></div>
+    </div>
+
+    <script src="C:\Users\radhi\rj\rj html\scrpt.js"></script>
+</body>
+</html>

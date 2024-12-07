@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #b7cbdc;
+}
+
+.container, .controls {
+    padding: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: royalblue;
+}
+
+.hidden {
+    display: none;
+}
+
+#stack-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 20px;
+}
+
+.stack-element {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #91fa87;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.stack-element.comparing {
+    background-color: red;
+}
+
+.stack-element.sorted {
+    background-color: green;
+}
+.stack-element.comparing {
+    background-color: purple;
+}
+
+.stack-element.swapping {
+    background-color: purple;
+}
+
+.stack-element.sorted {
+    background-color: green;
+}
